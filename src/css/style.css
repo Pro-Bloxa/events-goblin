@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.game {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#field {
+    display: inline-block;
+    cursor: url('../img/weapon.png'), auto;
+
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+img {
+    max-height: 100px;
+}
+
+.goblin {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
